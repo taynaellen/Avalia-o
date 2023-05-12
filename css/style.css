@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    height: 700px;
+    margin-left: 100px;
+    background-color: #d1d3d6;
+    border: 1px solid grey;
+    display: flex;
+}
+
+.container .sec-1 {
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+
+}
+
+.container .sec-1 .sec-1superior {
+    width: 80%;
+    height: 70%;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .sec-1 .sec-1superior .usuario {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container .sec-1 .sec-1superior .usuario .profile {
+    width: 3rem;
+    height: 3rem;
+    background-color: orange;
+    border-radius: 50px;
+    margin-left: 1rem;
+
+}
+
+.container .sec-1 .sec-1superior .usuario h4 {
+    margin: 0.2rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    padding: 0;
+}
+
+.container .sec-1 .sec-1superior .usuario h6 {
+    margin: 0.2rem;
+    margin-left: 0.5rem;
+    padding: 0;
+    display: flex;
+}
+
+.container .sec-1 .sec-1superior .usuario h6 .ball {
+    margin: 0.2rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-color: rgb(43, 179, 43);
+    border-radius: 50px;
+}
+
+/* MENU */
+
+.container .sec-1 .sec-1superior .menu {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.container .sec-1 .sec-1superior .menu a {
+    text-decoration: none;
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.container .sec-1 .sec-1superior .about {
+    width: 100%;
+    height: 25%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container .sec-1 .sec-1inferior {
+    width: 80%;
+    height: 20%;
+    margin: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+
+.container .sec-2 {
+    width: 30%;
+    height: 100%;
+}
+
+.container .sec-2 .sec-2superior {
+    width: 90%;
+    height: 60%;
+    margin: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    background-color: #fff;
+}
+
+.container .sec-2 .sec-2superior .sec-2superior-1 {
+    width: 100%;
+    height: 35%;
+    background-color: rgb(7, 198, 144);
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+}
+
+.container .sec-2 .sec-2superior .sec-2superior-2 {
+    width: 100%;
+    height: 65%;
+    background-color: #fff;
+    border-bottom-left-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .sec-2 .sec-2superior .sec-2superior-2 .ballpink {
+    width: 3rem;
+    height: 3rem;
+    background-color:rgb(227, 119, 137);
+    border-radius: 50px;
+    margin-top: 2rem;
+}
+
+
+.container .sec-2 .sec-2superior .sec-2superior-2 .h3 .h6 {
+    margin: 0rem;
+}
+
+
+
+
+.container .sec-2 .sec-2inferior {
+    width: 90%;
+    height: 15%;
+    background-color: #fff;
+    margin: 1rem;
+    display: flex;
+    border-radius: 0.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .sec-2 .sec-2inferior .ballblue {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(90, 90, 219);
+    border-radius: 50px;
+}
+
+.container .sec-2 .sec-2inferior h5 {
+    margin: 1rem;
+}
+
+
+.container .sec-3 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .sec-3 .sec-3superior {
+    width: 90%;
+    height: 15rem;
+    border: 1px solid black;
+    margin: 2rem;
+}
+
+.container .sec-3 .sec-3inferior {
+    width: 90%;
+    height: 30rem;
+    border: 1px solid black;
+    margin: 2rem;
+}
